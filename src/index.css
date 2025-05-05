@@ -8,3 +8,13 @@
 body {
   font-family: Opens Sans;
 }
+
+/* HEADER */
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  gap: 20px;
+}
