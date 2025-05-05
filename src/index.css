@@ -47,7 +47,7 @@ ul:hover {
   cursor: pointer;
 }
 
-/*** MAIN ***/
+/*** MAIN TOP ***/
 
 .main-top {
   background-color: #1C1C1C;
@@ -55,22 +55,25 @@ ul:hover {
   color: #ffffff;
   font-weight: bold;
   font-size: 25px;
+
 }
 
 p {
-  margin-left: 50px;
+  margin-left: 220px;
 }
 
 /*** MAIN BOTTOM ***/
 .main-bottom {
   background-color: #0282F9;
   padding: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 .icons-main-bottom {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 30px;
 }
 
 .icons-main-bottom img {
@@ -79,8 +82,7 @@ p {
 
 .list-main {
   color: white;
-  display: flex;
-  align-items: center;
+
 }
 
 /*** FOOTER TOP ***/
@@ -89,10 +91,12 @@ footer {
   background-image: url(./img/footer-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 .footer-top {
   display: flex;
+  margin-left: 150px;
 }
 
 .list-footer-top {
