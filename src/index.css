@@ -5,6 +5,7 @@
 }
 
 /* BODY */
+
 body {
   font-family: Open Sans;
 }
@@ -18,4 +19,17 @@ ul {
   list-style-type: none;
   gap: 25px;
   font-weight: bold;
+}
+
+/* MAIN */
+
+.main-top {
+  background-color: rgb(49, 49, 49);
+  padding: 20px;
+  color: #ffffff;
+  text
+}
+
+.main-bottom {
+  background-color: rgb(0, 119, 255);
 }
