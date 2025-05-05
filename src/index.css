@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+/* UTILYTIES */
+#color-blu {
+  color: #0087F6;
+}
+
+button {
+  background-color: #1C1C1C;
+  border: 2px solid #0282F9;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+}
+
 /* BODY */
 
 body {
@@ -39,10 +52,6 @@ ul {
   padding: 50px;
 }
 
-li img {
-  width: 30%;
-}
-
 .list-main {
   color: white;
 }
@@ -62,6 +71,18 @@ footer {
   color: gray;
 }
 
+#logo-footer {
+  position: relative;
+  left: 800px;
+}
+
 h3 {
   color: white;
+}
+
+/* FOOTER BOTTOM */
+
+.footer-bottom {
+  background-color: #1C1C1C;
+  padding: 30px;
 }

@@ -41,6 +41,23 @@ const Footer = () => {
                     <li>DC Universe </li>
                     <li>DC Power Visa</li>
                 </ul>
+                <ul className="list-footer-top">
+                    <li id="logo-footer"><img src="./img/dc-logo-bg.png" alt="" /></li>
+                </ul>
+            </div>
+            <div className="footer-bottom">
+                <ul>
+                    <li><button>SING-UP NOW!</button></li>
+                    <li><ul>
+                        <li id="color-blu">FOLLOW US</li>
+                        <li><img src="./img/footer-facebook.png" alt="" /></li>
+                        <li><img src="./img/footer-twitter.png" alt="" /></li>
+                        <li><img src="./img/footer-youtube.png" alt="" /></li>
+                        <li><img src="./img/footer-pinterest.png" alt="" /></li>
+                        <li><img src="./img/footer-periscope.png" alt="" /></li>
+                    </ul>
+                    </li>
+                </ul>
             </div>
         </footer>
     )
