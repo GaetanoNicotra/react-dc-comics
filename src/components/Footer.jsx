@@ -13,11 +13,9 @@ const Footer = () => {
                     <li>GAMES</li>
                     <li>VIDEOS</li>
                     <li>NEWS</li>
-                    <ul className="list-footer-top">
-                        <li><h3>SHOP</h3></li>
-                        <li>Shop DC</li>
-                        <li>Shop DC Collectibles</li>
-                    </ul>
+                    <li><h3>SHOP</h3></li>
+                    <li>Shop DC</li>
+                    <li>Shop DC Collectibles</li>
                 </ul>
                 <ul className="list-footer-top">
                     <li><h3>DC</h3></li>
@@ -41,10 +39,11 @@ const Footer = () => {
                     <li>DC Universe </li>
                     <li>DC Power Visa</li>
                 </ul>
-                <ul className="list-footer-top">
-                    <li id="logo-footer"><img src="./img/dc-logo-bg.png" alt="" /></li>
-                </ul>
+
+                <img id="logo-footer" src="./img/dc-logo-bg.png" alt="" />
+
             </div>
+
             <div className="footer-bottom">
                 <ul>
                     <li><button>SING-UP NOW!</button></li>
