@@ -48,3 +48,20 @@ li img {
 }
 
 /* FOOTER */
+
+footer {
+  background-image: url(./img/footer-bg.jpg);
+}
+
+.footer-top {
+  display: flex;
+}
+
+.list-footer-top {
+  display: block;
+  color: gray;
+}
+
+h3 {
+  color: white;
+}
