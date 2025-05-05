@@ -1,0 +1,12 @@
+// definisco il Footer
+
+const Footer = () => {
+    return (
+        <footer>
+
+        </footer>
+
+    )
+}
+
+export default Footer
