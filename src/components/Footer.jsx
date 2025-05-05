@@ -6,16 +6,16 @@ const Footer = () => {
             <div className="footer-top">
                 <ul className="list-footer-top">
                     <li><h3>DC COMICS</h3></li>
-                    <li>CHARACTERS</li>
-                    <li>COMICS</li>
-                    <li>MOVIES</li>
-                    <li>TV</li>
-                    <li>GAMES</li>
-                    <li>VIDEOS</li>
-                    <li>NEWS</li>
+                    <li>Characters</li>
+                    <li>Comics</li>
+                    <li>Movies</li>
+                    <li>Tv</li>
+                    <li>Games</li>
+                    <li>Videos</li>
+                    <li>News</li>
                     <li><h3>SHOP</h3></li>
-                    <li>Shop DC</li>
-                    <li>Shop DC Collectibles</li>
+                    <li>Shop dc</li>
+                    <li>Shop dc collectibles</li>
                 </ul>
                 <ul className="list-footer-top">
                     <li><h3>DC</h3></li>
@@ -39,8 +39,10 @@ const Footer = () => {
                     <li>DC Universe </li>
                     <li>DC Power Visa</li>
                 </ul>
+                <div className="container-img-footer">
+                    <img id="logo-footer" src="./img/dc-logo-bg.png" alt="" />
+                </div>
 
-                <img id="logo-footer" src="./img/dc-logo-bg.png" alt="" />
 
             </div>
 

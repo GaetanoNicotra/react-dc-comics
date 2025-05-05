@@ -4,7 +4,7 @@ const Main = () => {
     return (
         <div className="container">
             <div className="main-top">
-                <p>--Content goes here--</p>
+                <p>/--Content goes here--/</p>
             </div>
             <div className="main-bottom">
                 <ul className="list-main">

@@ -28,6 +28,11 @@ header {
   margin: 15px;
 }
 
+a:hover {
+  color: #0282F9;
+  border-bottom: 2px solid #0282F9;
+}
+
 ul {
   display: flex;
   justify-content: space-around;
@@ -35,6 +40,10 @@ ul {
   list-style-type: none;
   gap: 25px;
   font-weight: bold;
+}
+
+ul:hover {
+  cursor: pointer;
 }
 
 /* MAIN */
@@ -101,6 +110,7 @@ footer {
 
 h3 {
   color: white;
+  margin-bottom: 5px;
 }
 
 /* FOOTER BOTTOM */

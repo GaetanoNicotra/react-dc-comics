@@ -5,16 +5,16 @@ const Header = () => {
             <ul>
                 <li><img src="./img/dc-logo.png" alt="logo" /></li>
                 <li><ul>
-                    <li>CHARACTERS</li>
-                    <li>COMICS</li>
-                    <li>MOVIES</li>
-                    <li>TV</li>
-                    <li>GAMES</li>
-                    <li>COLLECTIBLES</li>
-                    <li>VIDEOS</li>
-                    <li>FANS</li>
-                    <li>NEWS</li>
-                    <li>SHOP</li>
+                    <a><li>CHARACTERS</li></a>
+                    <a><li>COMICS</li></a>
+                    <a><li>MOVIES</li></a>
+                    <a><li>TV</li></a>
+                    <a><li>GAMES</li></a>
+                    <a><li>COLLECTIBLES</li></a>
+                    <a><li>VIDEOS</li></a>
+                    <a><li>FANS</li></a>
+                    <a><li>NEWS</li></a>
+                    <a><li>SHOP</li></a>
                 </ul>
                 </li>
             </ul>
