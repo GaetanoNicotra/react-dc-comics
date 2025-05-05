@@ -1,5 +1,4 @@
 // definisco il Main
-
 const Main = () => {
     return (
         <div className="container">

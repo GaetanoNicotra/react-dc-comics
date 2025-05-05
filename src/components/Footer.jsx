@@ -1,5 +1,4 @@
 // definisco il Footer
-
 const Footer = () => {
     return (
         <footer>
@@ -42,8 +41,6 @@ const Footer = () => {
                 <div className="container-img-footer">
                     <img id="logo-footer" src="./img/dc-logo-bg.png" alt="" />
                 </div>
-
-
             </div>
 
             <div className="footer-bottom">
@@ -62,6 +59,6 @@ const Footer = () => {
             </div>
         </footer>
     )
-}
+};
 
 export default Footer
