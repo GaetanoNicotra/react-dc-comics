@@ -9,12 +9,22 @@
   color: #0087F6;
 }
 
+/*** BUTTONS ***/
 button {
   background-color: #1C1C1C;
   border: 2px solid #0282F9;
   padding: 15px;
   color: white;
   font-weight: bold;
+}
+
+.button-cards {
+  background-color: #0282F9;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: bold;
+  position: relative;
+  left: 45%;
 }
 
 /*** BODY ***/
@@ -47,6 +57,7 @@ ul:hover {
   cursor: pointer;
 }
 
+
 /*** MAIN TOP ***/
 
 .main-top {
@@ -65,7 +76,6 @@ p {
 .card-container {
   display: flex;
   justify-content: center;
-
   gap: 20px;
 }
 
