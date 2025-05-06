@@ -1,11 +1,13 @@
 import BlueSection from "./BlueSection";
 
+import ListComics from "./ListComics";
+
 // definisco il Main
 const Main = () => {
     return (
         <div className="container">
             <div className="main-top">
-                <p>/--Content goes here--/</p>
+                <ListComics />
             </div>
             <BlueSection />
         </div>
