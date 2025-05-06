@@ -159,7 +159,7 @@ function ListComics() {
     return (
 
         <section>
-            <div>CURRENT SERIES</div>
+            <div className="rettangolo-blue">CURRENT SERIES</div>
             <div className="card-container">
                 <ComcicCard src={comics[0].thumb} title={comics[0].series} />
                 <ComcicCard src={comics[1].thumb} title={comics[1].series} />
