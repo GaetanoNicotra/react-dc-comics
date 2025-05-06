@@ -156,80 +156,27 @@ function ListComics() {
         },
     ];
 
-
     return (
 
         <section>
             <h4>CURRENT SERIES</h4>
             <div className="card-container">
                 <div className="card-fumetto"></div>
-                <ComcicCard src={comics[0].thumb} title={"ACTION COMICS"} />
-                <ComcicCard src={comics[1].thumb} title={"AMERICAN VAMPIRE 1976"} />
-                <ComcicCard src={comics[2].thumb} title={"AQUAMAN"} />
-                <ComcicCard src={comics[3].thumb} title={"BATGIRL"} />
-                <ComcicCard src={comics[5].thumb} title={"BATMAN"} />
-                <ComcicCard src={comics[5].thumb} title={"BATMAN BEYOND"} />
+                <ComcicCard src={comics[0].thumb} title={comics[0].series} />
+                <ComcicCard src={comics[1].thumb} title={comics[1].series} />
+                <ComcicCard src={comics[2].thumb} title={comics[2].series} />
+                <ComcicCard src={comics[3].thumb} title={comics[3].series} />
+                <ComcicCard src={comics[5].thumb} title={comics[4].series} />
+                <ComcicCard src={comics[5].thumb} title={comics[5].series} />
             </div>
             <div className="card-container">
-                <ComcicCard src={comics[6].thumb} title={"BATMAN/SUPERMAN"} />
-                <ComcicCard src={comics[7].thumb} title={"BATMAN/SUPERMAN ANNUAL"} />
-                <ComcicCard src={comics[8].thumb} title={"BATMAN: THE JOKER WAR ZONE"} />
-                <ComcicCard src={comics[9].thumb} title={"BATMAN: THREE JOKERS"} />
-                <ComcicCard src={comics[10].thumb} title={"BATMAN: WHITE KNIGHT PRESENTS: HARLEY QUINN BEYOND"} />
-                <ComcicCard src={comics[11].thumb} title={"CATWOMAN BEYOND"} />
+                <ComcicCard src={comics[6].thumb} title={comics[6].series} />
+                <ComcicCard src={comics[7].thumb} title={comics[7].series} />
+                <ComcicCard src={comics[8].thumb} title={comics[8].series} />
+                <ComcicCard src={comics[9].thumb} title={comics[9].series} />
+                <ComcicCard src={comics[10].thumb} title={comics[10].series} />
+                <ComcicCard src={comics[11].thumb} title={comics[11].series} />
             </div>
-            {/*
-                    <img src="https://imgs.search.brave.com/aUNyvZBXUulb963JH7KnQm9AMr8bcBoLsiHREOqayIU/rs:fit:612:612:1/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9hc3IvOWZm/ZWYzMDMtMGZhYy00/OGRkLTg3ODctYzUy/NTk0MDk2ODAwXzEu/MTc1ZDk1Mjg2NzY0/OGEwOTczMTY2NGMy/MTE1NjNlYWIuanBl/Zz9vZG5XaWR0aD02/MTImb2RuSGVpZ2h0/PTYxMiZvZG5CZz1m/ZmZmZmY" alt="SUPERMAN" />
-                    <h6>ACTION COMICS</h6>
-                </div>
-                 <div className="card-fumetto">
-                    <img src="https://imgs.search.brave.com/OU2E3_3vA7flyv-SJ3TcFW1d99KDlp5ZfmW9ylLLFDo/rs:fit:1012:1200:1/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vd3d3LnN1/cGVycG91dm9pci5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjAvMDcvQW1lcmlj/YW4tVmFtcGlyZS0x/OTc2LTAxLWNvdi1B/bGJ1cXVlcnF1ZS0y/MDIwLmpwZz9yZXNp/emU9MTAxMiUyQzE1/NTYmc3NsPTE" />
-                    <h6>AMERICAN VAMPIRE 1976</h6>
-                </div>
-                <div className="card-fumetto">
-                    <img src="https://imgs.search.brave.com/gAZQuZyt6WjcUWF6aXCIBaiJqtOJAK-X4nxS9Vbvwno/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9jZG4y/LnBlbmd1aW4uY29t/LmF1L2NvdmVycy9v/cmlnaW5hbC85Nzgx/NDAxMjc1NDI2Lmpw/Zw" alt="SUPERMAN" />
-                    <h6></h6>
-                </div>
-                <div className="card-fumetto">
-                    <img src="https://imgs.search.brave.com/YET9wY29Aa29TyHqlbieS9qsz3HWyNYQx-WkRqdBRX4/rs:fit:640:984:1/g:ce/aHR0cDovL2dldHlv/dXJjb21pY29uLmNv/LnVrL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDE2LzA4L2JhdGdp/cmwtcmViaXJ0aC0x/LWNvdmVyLmpwZw" alt="SUPERMAN" />
-                    <h6></h6>
-                </div>
-                <div className="card-fumetto">
-                    <img src="https://imgs.search.brave.com/jgxYlrx442aozemzjqdmCsd9DkIkRollJp1T8sG8TfE/rs:fit:720:1106:1/g:ce/aHR0cHM6Ly9veXN0/ZXIuaWduaW1ncy5j/b20vd29yZHByZXNz/L3N0Zy5pZ24uY29t/LzIwMTgvMTAvU1RM/MDk3MDk1LTcyMHgx/MTA2LmpwZw" alt="SUPERMAN" />
-                    <h6>BATMAN</h6>
-                </div>
-                <div className="card-fumetto">
-                    <img src="https://imgs.search.brave.com/jgxYlrx442aozemzjqdmCsd9DkIkRollJp1T8sG8TfE/rs:fit:720:1106:1/g:ce/aHR0cHM6Ly9veXN0/ZXIuaWduaW1ncy5j/b20vd29yZHByZXNz/L3N0Zy5pZ24uY29t/LzIwMTgvMTAvU1RM/MDk3MDk1LTcyMHgx/MTA2LmpwZw" alt="SUPERMAN" />
-                    <h6></h6>
-                </div>
-            </div>
-            <div className="card-container">
-                <div className="card-fumetto">
-                    <img " alt="SUPERMAN" />
-                    <h6></h6>
-                </div>
-                <div className="card-fumetto">
-                    <img  alt="SUPERMAN" />
-                    <h6>L</h6>
-                </div>
-                <div className="card-fumetto">
-                    <img  alt="SUPERMAN" />
-                    <h6>E</h6>
-                </div>
-                <div className="card-fumetto">
-                    <img  alt="SUPERMAN" />
-                    <h6></h6>
-                </div>
-                <div className="card-fumetto">
-                    <img " alt="SUPERMAN" />
-                    <h6></h6>
-                </div>
-                <div className="card-fumetto">
-                    <img  alt="SUPERMAN" />
-                    <h6></h6>
-                </div>*/}
-
-
         </section >
     )
 };
