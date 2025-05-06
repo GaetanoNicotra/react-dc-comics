@@ -161,7 +161,6 @@ function ListComics() {
         <section>
             <h4>CURRENT SERIES</h4>
             <div className="card-container">
-                <div className="card-fumetto"></div>
                 <ComcicCard src={comics[0].thumb} title={comics[0].series} />
                 <ComcicCard src={comics[1].thumb} title={comics[1].series} />
                 <ComcicCard src={comics[2].thumb} title={comics[2].series} />
