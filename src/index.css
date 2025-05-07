@@ -74,14 +74,18 @@ p {
 }
 
 .card-container {
+  width: 1200px;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
+  /*collegato alla width di card fumetto*/
 }
 
 .card-fumetto {
-  width: 200px;
+  width: calc((100% - 100px)/ 6);
+  /* collegato al gap di card container (20px per 5 spazi)*/
   height: 300px;
 }
 
