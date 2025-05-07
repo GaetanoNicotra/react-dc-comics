@@ -1,3 +1,4 @@
+import Jumbotron from "./Jumbotron";
 // definisco l'header
 const Header = () => {
     const links = [

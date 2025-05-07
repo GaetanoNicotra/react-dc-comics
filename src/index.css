@@ -57,6 +57,11 @@ ul:hover {
   cursor: pointer;
 }
 
+/*** JUMBOTRON ***/
+.jumbo-size {
+  height: 450px;
+  background-image: url(../public/img/jumbotron.jpg);
+}
 
 /*** MAIN TOP ***/
 
