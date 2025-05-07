@@ -155,7 +155,6 @@ function ListComics() {
             writers: ["Joëlle Jones"],
         },
     ];
-
     return (
         <section>
             <div className="rettangolo-blue">CURRENT SERIES</div>
@@ -163,20 +162,6 @@ function ListComics() {
                 {comics.map((comic) => (
                     <ComcicCard src={comic.thumb} title={comic.series} />
                 ))}</div>
-            {/*     <ComcicCard src={comics[1].thumb} title={comics[1].series} />
-                <ComcicCard src={comics[2].thumb} title={comics[2].series} />
-                <ComcicCard src={comics[3].thumb} title={comics[3].series} />
-                <ComcicCard src={comics[5].thumb} title={comics[4].series} />
-                <ComcicCard src={comics[5].thumb} title={comics[5].series} />
-            </div>
-            <div className="card-container">
-                <ComcicCard src={comics[6].thumb} title={comics[6].series} />
-                <ComcicCard src={comics[7].thumb} title={comics[7].series} />
-                <ComcicCard src={comics[8].thumb} title={comics[8].series} />
-                <ComcicCard src={comics[9].thumb} title={comics[9].series} />
-                <ComcicCard src={comics[10].thumb} title={comics[10].series} />
-                <ComcicCard src={comics[11].thumb} title={comics[11].series} />
-            </div>*/}
         </section >
     )
 };
