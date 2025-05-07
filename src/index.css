@@ -78,8 +78,12 @@ p {
   margin-left: 220px;
 }
 
+h6 {
+  text-transform: uppercase;
+}
+
 .card-container {
-  width: 1200px;
+  width: 1400px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -107,7 +111,7 @@ p {
   background-color: #0282F9;
   width: fit-content;
   position: relative;
-  top: -50px;
+  top: -85px;
   left: 200px;
 }
 
@@ -145,6 +149,7 @@ footer {
 .footer-top {
   display: flex;
   margin-left: 150px;
+  height: 370px;
 }
 
 .list-footer-top {
@@ -152,17 +157,23 @@ footer {
   color: gray;
   margin-left: 80px;
   margin-top: 50px;
-  line-height: 35px;
+  font-size: 18px;
 }
 
 #logo-footer {
   position: relative;
   left: 400px;
+  z-index: 1;
+  bottom: 120px;
 }
 
 h3 {
   color: white;
-  margin-bottom: 5px;
+  margin: 5px 3px;
+}
+
+.list-footer-top {
+  font-weight: 150;
 }
 
 /*** FOOTER BOTTOM ***/
@@ -170,4 +181,6 @@ h3 {
 .footer-bottom {
   background-color: #1C1C1C;
   padding: 30px;
+  position: relative;
+  z-index: 2;
 }
