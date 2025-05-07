@@ -120,6 +120,8 @@ h6 {
   padding: 50px;
   display: flex;
   justify-content: center;
+  position: relative;
+  z-index: 3;
 }
 
 .icons-main-bottom {
@@ -173,7 +175,7 @@ h3 {
 }
 
 .list-footer-top {
-  font-weight: 150;
+  font-weight: 220;
 }
 
 /*** FOOTER BOTTOM ***/
