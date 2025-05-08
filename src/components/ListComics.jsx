@@ -160,7 +160,7 @@ function ListComics() {
             <div className="rettangolo-blue">CURRENT SERIES</div>
             <div className="card-container">
                 {comics.map((comic) => (
-                    <ComcicCard src={comic.thumb} title={comic.series} />
+                    <ComcicCard key={`id-${comic.id}`} src={comic.thumb} title={comic.series} />
                 ))}</div>
         </section >
     )
